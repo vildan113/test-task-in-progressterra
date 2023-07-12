@@ -1,0 +1,37 @@
+:root {
+	--body-font-family: "OpenSans-Regular", Helvetica;
+	--body-font-size: 16px;
+	--body-font-style: normal;
+	--body-font-weight: 400;
+	--body-letter-spacing: 0px;
+	--body-line-height: 24px;
+
+	--form-text-color: #979797;
+	--accent-color: #d4343f;
+	--accent-gradient: linear-gradient(180deg, #d2333e 0%, #f54b55 100%);
+
+	--bonus-card-z-index: 1;
+}
+
+body {
+	font-family: var(--body-font-family);
+	font-size: var(--body-font-size);
+	font-style: var(--body-font-style);
+	font-weight: var(--body-font-weight);
+	letter-spacing: var(--body-letter-spacing);
+	line-height: var(--body-line-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}

@@ -1,0 +1,70 @@
+.bonus-card {
+	display: flex;
+	padding: 18px 18px 19px 20px;
+	gap: 40px;
+	justify-content: space-between;
+	overflow: hidden;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 16px #00000033;
+	box-sizing: border-box;
+}
+
+.bonus-card__info {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	overflow: hidden;
+}
+
+.bonus-card__current-quantity {
+	color: #000000;
+	font-family: "OpenSans-Bold", Helvetica;
+	font-size: 24px;
+	font-weight: 700;
+	height: 32px;
+	line-height: 32px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.bonus-card__burning {
+	display: flex;
+	gap: 8px;
+	overflow: hidden;
+}
+
+.bonus-card__burning-date,
+.bonus-card__burning-quantity {
+	color: var(--form-text-color);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.bonus-card__path-icon {
+	min-width: 13px;
+	height: 17px;
+}
+
+.bonus-card__button {
+	display: flex;
+	min-width: 35px;
+	height: 35px;
+	margin-top: 21px;
+	margin-bottom: 12px;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid;
+	border-color: var(--accent-color);
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.bonus-card__button-icon {
+	width: 7px;
+	min-width: 7px;
+	height: 13px;
+	margin-left: 2px;
+}

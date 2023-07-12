@@ -1,0 +1,41 @@
+.homepage {
+	position: relative;
+	display: flex;
+	height: 100vh;
+	padding: 32px 28px 0px 25px;
+	gap: 20px;
+	justify-content: space-between;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.homepage::after {
+	content: "";
+	position: absolute;
+	top: 132px;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: var(--accent-gradient);
+}
+
+.homepage__logo {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.homepage__information-icon {
+	top: 56px;
+	min-width: 24px;
+	height: 24px;
+}
+
+.homepage__bonuses {
+	position: absolute;
+	top: 76px;
+	z-index: var(--bonus-card-z-index);
+	left: 20px;
+	right: 20px;
+}
